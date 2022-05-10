@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+.container-header {
+    display: flex;
+    background-color: #000;
+    height: 100px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex: 1;
+}
+
+header img {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.nav {
+    display: flex;
+    color: #FFFF;
+    flex-direction: row;
+    flex: 1;
+   
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+.gap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+}
+
+.nav-btn {
+    display: flex;
+    color:#FFFF;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-btn a {
+    padding: 15px;
+}
+
+.Premium {
+    display: flex;
+    background-color: rgb(153, 51, 153);
+}
+
+.lado-esquerdo {
+    flex: 2;
+    color:#FFFF;
+    margin-left: 100px;
+    max-width: 720px;
+}
+
+.lado-esquerdo h4 {
+    margin: 30px 0px 30px 0px;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+.lado-esquerdo h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.lado-esquerdo h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.btn-dark{
+    background-color: #000;
+    color:#FFFF;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.creditos {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+.lado-direito {
+    flex: 2;
+}
+
+.lado-direito img {
+    display: flex;
+    height: 350px;
+    max-width: 1440px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.Free {
+    display: flex;
+    background-color:#2941AB;
+    height: 472px;
+    background-image: url('./assets/bg.png');
+}
+.content {
+    margin-left: 100px;
+    max-width: 720px;
+    color:#1ED760;
+}
+
+
+.content h4 {
+    margin: 30px 0px 30px 0px;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.btn-green {
+    background-color: #1ED760;
+    color:#2941AB;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
